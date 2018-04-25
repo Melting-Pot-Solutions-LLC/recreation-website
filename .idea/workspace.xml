@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2bee16b1-9d9c-43ff-bb2c-ac282641faa8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-2.html" afterPath="$PROJECT_DIR$/service-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-2.html" afterPath="$PROJECT_DIR$/contact-2.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service-2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="service-2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
               <caret line="312" column="68" lean-forward="false" selection-start-line="312" selection-start-column="68" selection-end-line="312" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contact-2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="198" column="59" lean-forward="false" selection-start-line="198" selection-start-column="54" selection-end-line="198" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -42,8 +52,9 @@
     <findStrings>
       <find>house</find>
       <find>some of</find>
-      <find>fa-</find>
       <find>constru</find>
+      <find>fa-</find>
+      <find>form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,6 +65,7 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/service-2.html" />
+        <option value="$PROJECT_DIR$/contact-2.html" />
       </list>
     </option>
   </component>
@@ -91,6 +103,11 @@
               <item name="recreation-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="recreation-website" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="recreation-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recreation-website" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -125,12 +142,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524683720339</updated>
-      <workItem from="1524683721667" duration="4645000" />
+      <workItem from="1524683721667" duration="4923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4645000" />
+    <option name="totallyTimeSpent" value="4923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -176,10 +193,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="312" column="68" lean-forward="false" selection-start-line="312" selection-start-column="68" selection-end-line="312" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="198" column="59" lean-forward="false" selection-start-line="198" selection-start-column="54" selection-end-line="198" selection-end-column="59" />
           <folding />
         </state>
       </provider>

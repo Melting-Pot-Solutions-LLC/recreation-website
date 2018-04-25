@@ -171,23 +171,23 @@
                                         <input id="datepicker" type="text" placeholder="Appointment time" class="form-control"> -->
 
                                         <label class="sr-only">Your name</label>
-                                        <input type="text" placeholder="Your full name *" class="form-control">
+                                        <input type="text" placeholder="Your full name *" name="name" class="form-control">
 
                                         <label class="sr-only">Phone number</label>
-                                        <input type="text" placeholder="Phone number *" class="form-control">
+                                        <input type="text" placeholder="Phone number *" name="phone" class="form-control">
 
                                         <label class="sr-only">Email address</label>
-                                        <input type="email" placeholder="Email address *" class="form-control">
+                                        <input type="email" placeholder="Email address *" name="email" class="form-control">
 
                                         <label class="sr-only">Select Construction Workers</label>
-                                        <select class="selectpicker form-control" data-style="btn-white">
+                                        <select class="selectpicker form-control" name="workers" data-style="btn-white">
                                             <option value="12">-- Construction Workers --</option>
                                             <option value="amanda">Amanda JOE</option>
                                             <option value="mark">Mark DOE</option>
                                         </select>
 
                                         <label class="sr-only">Select Service</label>
-                                        <select class="selectpicker form-control" data-style="btn-white">
+                                        <select class="selectpicker form-control" name="service" data-style="btn-white">
                                             <option value="12">-- Select Service --</option>
                                             <option value="12">Construction Watering</option>
                                             <option value="13">Construction Landscape</option>
@@ -196,7 +196,7 @@
                                         </select>
                                         <textarea placeholder="Add extra notes" class="form-control"> 
                                         </textarea>
-                                        <button type="reset" class="btn btn-primary btn-block btn-lg">Send Now</button>
+                                        <button type="submit" class="btn btn-primary btn-block btn-lg">Send Now</button>
                                     </div>
                                 </fieldset>
                             </form>
