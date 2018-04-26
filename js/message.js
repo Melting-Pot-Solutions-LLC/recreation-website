@@ -10,7 +10,7 @@ myform.submit(function(event){
     }, {});
     // Change to your service ID, or keep using the default service
     var service_id = "gmail";
-    var template_id = "waterland";
+    var template_id = "recreation";
     myform.find("button").text("Sending...");
     emailjs.send(service_id,template_id,params)
         .then(function(){
