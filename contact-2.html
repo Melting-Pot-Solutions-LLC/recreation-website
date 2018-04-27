@@ -186,9 +186,20 @@
                                             <option value="15">Construction Fence</option>
                                             <option value="14">Construction Supplies</option>
                                         </select>
-                                        <textarea placeholder="Add extra notes" class="form-control"> 
+                                        <textarea placeholder="Add extra notes" name="message" class="form-control">
                                         </textarea>
                                         <button type="submit" class="btn btn-primary btn-block btn-lg">Send Now</button>
+                                        <br>
+                                        <div class="col-md-6">
+                                            <p>Square of yours apartments</p>
+                                            <input placeholder="square" id="square" class="form-control">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Price</p>
+                                            <input placeholder="price" id="price" class="form-control">
+                                        </div>
+                                        <p>* click everywhere </p>
+
                                     </div>
                                 </fieldset>
                             </form>
@@ -261,6 +272,9 @@
     <!-- SLIDER REV -->
     <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
     <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <script src="js/message.js"></script>
+
     
     <script type="text/javascript">
     (function($) {
@@ -269,7 +283,12 @@
         $('.row-offcanvas').toggleClass('active');
         });  
     })(jQuery);
-    </script>  
+
+    $('#square').change(function() {
+        $('#price').val((($(this).val()*10)/100) + ' $');
+    });
+    </script>
+
 
 </body>
 </html>
