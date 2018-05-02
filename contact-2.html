@@ -105,55 +105,8 @@
 		<section class="section white">
             <div class="container-full">
                 <div class="row module-wrapper text-center twocol">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 why-us">
-                                <img src="images/icons/icon_01.png" alt="" class="wow fadeIn">
-                                <strong>Construction Materials</strong> 
-                                <p>Lorem ipsum dolor sit amet, consectetur elit. Curabitur euismod enim a metus adipiscing aliquam. </p>
-                            </div><!-- end col -->
 
-                            <div class="col-md-6 col-sm-6 why-us">
-                                <img src="images/icons/icon_02.png" alt="" class="wow fadeIn">
-                                <strong>Mortar Materials</strong> 
-                                <p>Lorem ipsum dolor sit amet, consectetur elit. Curabitur euismod enim a metus adipiscing aliquam. </p>
-                            </div><!-- end col -->
-                        </div>
-                        
-                        <hr class="invis1">
-
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 why-us">
-                                <img src="images/icons/icon_03.png" alt="" class="wow fadeIn">
-                                <strong>Stone Crushing operations</strong> 
-                                <p>Lorem ipsum dolor sit amet, consectetur elit. Curabitur euismod enim a metus adipiscing aliquam. </p>
-                            </div><!-- end col -->
-
-                            <div class="col-md-6 col-sm-6 why-us">
-                                <img src="images/icons/icon_04.png" alt="" class="wow fadeIn">
-                                <strong>Paint and whitewash</strong> 
-                                <p>Lorem ipsum dolor sit amet, consectetur elit. Curabitur euismod enim a metus adipiscing aliquam. </p>
-                            </div><!-- end col -->
-                        </div><!-- end row -->
-
-                        <hr class="invis1">
-
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 why-us">
-                                <img src="images/icons/icon_05.png" alt="" class="wow fadeIn">
-                                <strong>Crane machines</strong> 
-                                <p>Lorem ipsum dolor sit amet, consectetur elit. Curabitur euismod enim a metus adipiscing aliquam. </p>
-                            </div><!-- end col -->
-
-                            <div class="col-md-6 col-sm-6 why-us">
-                                <img src="images/icons/icon_06.png" alt="" class="wow fadeIn">
-                                <strong>All Transactions</strong> 
-                                <p>Lorem ipsum dolor sit amet, consectetur elit. Curabitur euismod enim a metus adipiscing aliquam. </p>
-                            </div><!-- end col -->
-                        </div><!-- end row -->
-                    </div><!-- end col -->
-
-                    <div class="col-md-6">
+                    <div class="col-md-12">
 
                         <div class="appoform-wrapper noborder">
                             <form method="post">
@@ -161,6 +114,17 @@
                                     <div class="col-md-12">
                                         <!-- <label class="sr-only">Appointment time</label>
                                         <input id="datepicker" type="text" placeholder="Appointment time" class="form-control"> -->
+                                        <div class="col-md-6">
+                                            <h3>Square of yours apartments</h3>
+                                            <input placeholder="square" id="square" class="form-control">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Price</h3>
+                                            <input placeholder="price" id="price" class="form-control">
+                                        </div>
+                                        <p>* click everywhere </p>
+
+                                        <br>
 
                                         <label class="sr-only">Your name</label>
                                         <input type="text" placeholder="Your full name *" name="name" class="form-control">
@@ -189,16 +153,6 @@
                                         <textarea placeholder="Add extra notes" name="message" class="form-control">
                                         </textarea>
                                         <button type="submit" class="btn btn-primary btn-block btn-lg">Send Now</button>
-                                        <br>
-                                        <div class="col-md-6">
-                                            <p>Square of yours apartments</p>
-                                            <input placeholder="square" id="square" class="form-control">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <p>Price</p>
-                                            <input placeholder="price" id="price" class="form-control">
-                                        </div>
-                                        <p>* click everywhere </p>
 
                                     </div>
                                 </fieldset>
@@ -285,6 +239,7 @@
     $('#square').change(function() {
         $('#price').val((($(this).val()*10)/100) + ' $');
     });
+
     </script>
 
 
