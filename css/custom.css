@@ -52,8 +52,8 @@
 	.open > .dropdown-toggle.btn-primary,
 	.magnifier .st:hover,
 	.slider_btn .btn-primary {
-		border-color: #ffcc33 !important;
-    background-color: #ffcc33 !important;
+		border-color: #289dd6 !important;
+    background-color: #289dd6 !important;
 		color:#fff !important;
 	}
 	.tabs-left .nav-tabs li.active a,
@@ -83,7 +83,7 @@
 	.navbar-default .dropdown-menu,
 	.dark-yellow {
 		color:#ffffff !important;
-		background-color: #FFC107 !important;
+		background-color: #4cb54f !important;
 	}
 	.yamm .dropdown.yamm-fw .dropdown-menu,
 	.nav-tabs > li a:hover,
