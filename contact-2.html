@@ -91,13 +91,13 @@
 					<div class="container-full">
 						<div class="title-area row">
 							<div class="col-md-12 text-center">
-								<h2>Get in Touch</h2>
-								<div class="bread">
+								<h2>Get an estimate and get in touch with us</h2>
+								<!-- <div class="bread">
 									<ol class="breadcrumb">
 										<li><a href="#">Home</a></li>
 										<li class="active">Get in Touch</li>
 									</ol>
-								</div><!-- end bread -->
+								</div> -->
 							</div>
 						</div><!-- /.pull-right -->
 					</div>
@@ -115,14 +115,14 @@
                                         <!-- <label class="sr-only">Appointment time</label>
                                         <input id="datepicker" type="text" placeholder="Appointment time" class="form-control"> -->
                                         <div class="col-md-6">
-                                            <h3>Square of yours apartments</h3>
-                                            <input placeholder="square" id="square" class="form-control">
+                                            <h3>Area You Want Us To Take Care of </h3>
+                                            <input placeholder="Square Footage" id="square" class="form-control">
                                         </div>
                                         <div class="col-md-6">
-                                            <h3>Price</h3>
-                                            <input placeholder="price" id="price" class="form-control">
+                                            <h3>Your Price</h3>
+                                            <input placeholder="Your price will appear here" id="price" class="form-control" style="font-weight: bold; ">
                                         </div>
-                                        <p>* click everywhere </p>
+                                        <!-- <p>* click everywhere </p> -->
 
                                         <br>
 
@@ -135,20 +135,30 @@
                                         <label class="sr-only">Email address</label>
                                         <input type="email" placeholder="Email address *" name="email" class="form-control">
 
-                                        <label class="sr-only">Select Construction Workers</label>
+                                        <!-- <label class="sr-only">Select Construction Workers</label>
                                         <select class="selectpicker form-control" name="workers" data-style="btn-white">
                                             <option value="12">-- Construction Workers --</option>
                                             <option value="amanda">Amanda JOE</option>
                                             <option value="mark">Mark DOE</option>
-                                        </select>
+                                        </select> -->
 
                                         <label class="sr-only">Select Service</label>
                                         <select class="selectpicker form-control" name="service" data-style="btn-white">
                                             <option value="12">-- Select Service --</option>
-                                            <option value="12">Construction Watering</option>
-                                            <option value="13">Construction Landscape</option>
-                                            <option value="15">Construction Fence</option>
-                                            <option value="14">Construction Supplies</option>
+                                            <option value="12">Low Pressure Housewashing</option>
+                                            <option value="12">Gutter Cleaning</option>
+                                            <option value="12">Vinal Siding Oxidation Restoration</option>
+                                            <option value="13">Low Pressure Pool Deck Cleaning</option>
+                                            <option value="15">Paever Restoration</option>
+                                            <option value="14">Low Pressure Wood Restoration</option>
+                                            <option value="12">Gutter Cleaning</option>
+                                            <option value="13">Commercial Exterior Cleaning</option>
+                                            <option value="15">Exterior Window Cleaning</option>
+                                            <option value="14">Low Pressure Brick Cleaning</option>
+                                            <option value="12">Concrete & Stone cleaning</option>
+                                            <option value="13">Efflorescence Removal</option>
+                                            <option value="15">Lawn Care Maintenance</option>
+                                            <option value="14"></option>
                                         </select>
                                         <textarea placeholder="Add extra notes" name="message" class="form-control">
                                         </textarea>
@@ -236,9 +246,10 @@
         });  
     })(jQuery);
 
-    $('#square').change(function() {
-        $('#price').val((($(this).val()*10)/100) + ' $');
+    $('#square').keyup(function() {
+        $('#price').val( ' $' + (($(this).val()*10)/100));
     });
+
 
     </script>
 

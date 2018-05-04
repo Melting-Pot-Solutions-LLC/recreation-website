@@ -1737,7 +1737,7 @@
 		margin: 15px 0
 	}
 	.client_list_v_2 img {
-	    border: 1px solid #f7f7f7;
+	    /* border: 1px solid #f7f7f7; */
 	    padding: 10px;
 	}
 	.shopmeta span {
@@ -2361,7 +2361,8 @@
 	    margin:0 10px;
 	    color:#222222;
 	    text-decoration: none;
-	    text-transform: uppercase;
+		text-transform: uppercase;
+		margin-top: 1%;
 	}
 	.portfolio-filter ul li a {
 		color:#111111 ;
