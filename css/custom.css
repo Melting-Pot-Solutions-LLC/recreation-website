@@ -83,7 +83,7 @@
 	.navbar-default .dropdown-menu,
 	.dark-yellow {
 		color:#ffffff !important;
-		background-color: #4cb54f !important;
+		/*background-color: #4cb54f !important;*/
 	}
 	.yamm .dropdown.yamm-fw .dropdown-menu,
 	.nav-tabs > li a:hover,
@@ -135,4 +135,13 @@
 	}
 	.bgcolor1:hover {
 		background-color: #ffcc33;
+	}
+
+	p{
+		font-size: 16pt !important;
+		font-family: 'Architects Daughter', cursive;
+	}
+
+	.lead p{
+		font-family: 'Architects Daughter', cursive !important;
 	}
