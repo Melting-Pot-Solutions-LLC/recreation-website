@@ -142,7 +142,7 @@
 		font-family: 'Architects Daughter', cursive;
 	}
 
-    h1, h2, h3, h4, h5, h6, a{
+    h1, h2, h3, h4, h5, h6, a, strong{
         font-family: 'Architects Daughter', cursive !important;
     }
 
@@ -156,4 +156,9 @@
 
     .module-wrapper span{
         color: green;
+    }
+
+    .current {
+
+        color: #00A8FF !important;
     }
